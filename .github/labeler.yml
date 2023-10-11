@@ -1,0 +1,24 @@
+ci/cd:
+  - .github/workflows/*
+
+infrastructure:
+  - terraform/**
+
+documentation:
+  - README.md
+  - "**/*.qhelp"
+  - "**/*.md"
+  - docs/**/*
+
+test:
+  - "**/*test*"
+  - "**/*.spec.js"
+
+JavaScript:
+  - "**/*.js"
+
+TypeScript:
+  - "**/*.ts"
+
+Python:
+  - "**/*.py"
