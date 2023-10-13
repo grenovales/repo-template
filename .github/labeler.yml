@@ -1,24 +1,28 @@
+# Add 'repo' label to any root file changes
+repo:
+- '*'
+
 ci/cd:
-  - .github/workflows/*
+- .github/workflows/*
 
 infrastructure:
-  - terraform/**
+- terraform/**
 
 documentation:
-  - README.md
-  - "**/*.qhelp"
-  - "**/*.md"
-  - docs/**/*
+- README.md
+- "**/*.qhelp"
+- "**/*.md"
+- docs/**/*
 
 test:
-  - "**/*test*"
-  - "**/*.spec.js"
+- "**/*test*"
+- "**/*.spec.js"
 
 JavaScript:
-  - "**/*.js"
+- "**/*.js"
 
 TypeScript:
-  - "**/*.ts"
+- "**/*.ts"
 
 Python:
-  - "**/*.py"
+- "**/*.py"
