@@ -50,4 +50,4 @@ This Gihubb action will automatically create a release notes when a milestone is
 <p>
 
 ### Semantic Check
-ENforcing good pull request its importan to have proper title check this guide [Conventional Commits](https://www.conventionalcommits.org)
+Enforcing good pull request its importan to have proper title check this guide [Conventional Commits](https://www.conventionalcommits.org)
